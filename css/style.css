@@ -1,0 +1,108 @@
+body{
+	margin: 0 auto; 
+	/* linear stripes came from https://css-tricks.com/stripes-css/ */ 
+	background-image: repeating-linear-gradient(
+		to bottom, 
+		#ff0000,
+		#ff0000 50%,
+		#ffffff 50%, 
+		#ffffff
+	); 
+	background-size: 100% 60px; 
+}
+
+#main{
+	margin: 0 auto; 
+	margin-top: 50px;
+	margin-bottom: 50px; 
+	background-color: #000080; 
+	padding: 50px; 
+	width: 92%; 
+	height: auto;
+	font-family: 'Anonymous Pro', monospace, sans-serif;
+	font-size: 1em; 
+	padding: 20px;
+}
+
+#title{
+	text-align: center; 
+	margin: 0 auto; 
+	color: #fff; 
+	font-family: 'Marck Script', cursive;	
+	font-size: 10vh; 
+	font-size: 4em; 
+}
+
+#img-div{
+	background-color: #fff; 
+	max-width: 100%; 
+	display: block; 
+	height: auto; 
+	margin: 0 auto;  
+}
+
+#image{
+	max-width: 100%; 
+	display: block; 
+	height: auto; 
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+}
+
+#img-caption{
+	text-align: center; 
+	font-size: 0.9em; 
+	padding: 0 0 20px 0; 
+}
+
+#tribute-info{
+	color: #fff; 
+	margin-top: 35px;
+}
+
+#tribute-info h2{
+	text-align:center; 
+	font-weight: bold; 
+	font-size: 1.4em; 
+	
+}
+/* star.png from https://www.iconsdb.com/navy-blue-icons/star-icon.html */ 
+#tribute-info ul {
+	max-width: 90%; 
+	margin: 0 auto; 
+	color: #000; 
+	background-color: #fff; 
+	padding: 20px 40px; 
+	list-style-image: url("../img/star.png");
+	
+}
+
+#tribute-info ul li{
+	padding: 15px;
+}
+
+#tribute-link{
+	margin-top: 35px; 
+	margin-bottom: 35px;
+	padding: 5px;
+	font-weight: bold; 
+	text-align: left;
+}
+
+#tribute-link a{
+	color: #ffa500; 
+	font-weight: bold; 
+	font-size: 1.2em; 
+	text-decoration:none; 
+}
+
+#tribute-link a:hover{
+	color: #ffff00; 
+}
+
+@media only screen and (max-width: 800px){
+	#main{
+		max-width: 100%; 
+		
+	}
+}
